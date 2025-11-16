@@ -7,7 +7,7 @@ public class TsvTitleDeserializer implements TitleDeserializer{
         List<Title> titles = new ArrayList<>();
 
         for(String line : lines){
-            String[] fields ) line.split("\t");
+            String[] fields = line.split("\t");
             if(fields.length < 3) continue;
             titles.add(new Title(fields[0], fields[2]));
         }
