@@ -11,6 +11,6 @@ public class TsvTitleDeserializer implements TitleDeserializer{
             if(fields.length < 3) continue;
             titles.add(new Title(fields[0], fields[2]));
         }
-        return titles
+        return titles;
     }
 }
