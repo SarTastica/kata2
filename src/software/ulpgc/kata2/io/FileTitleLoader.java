@@ -1,10 +1,16 @@
+package software.ulpgc.kata2.io;
+
+import software.ulpgc.kata2.io.TitleDeserializer;
+import software.ulpgc.kata2.io.TitleLoader;
+import software.ulpgc.kata2.model.Title;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileTitleLoader implements TitleLoader{
+public class FileTitleLoader implements TitleLoader {
     private final String filePath;
     private final TitleDeserializer deserializer;
 

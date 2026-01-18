@@ -1,3 +1,6 @@
+package software.ulpgc.kata2;
+import software.ulpgc.kata2.model.Title;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

@@ -1,3 +1,9 @@
+package software.ulpgc.kata2;
+
+import software.ulpgc.kata2.io.FileTitleLoader;
+import software.ulpgc.kata2.io.TitleLoader;
+import software.ulpgc.kata2.io.TsvTitleDeserializer;
+import software.ulpgc.kata2.model.Title;
 import java.util.List;
 
 public class Main {

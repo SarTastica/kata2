@@ -1,3 +1,7 @@
+package software.ulpgc.kata2;
+
+import software.ulpgc.kata2.HistogramElement;
+
 import java.util.List;
 
 public class HistogramStatsDisplayer {

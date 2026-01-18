@@ -1,3 +1,4 @@
+package software.ulpgc.kata2.model;
 public class Title {
     private final String id;
     private final String name;

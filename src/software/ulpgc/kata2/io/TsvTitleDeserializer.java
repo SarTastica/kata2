@@ -1,7 +1,11 @@
+package software.ulpgc.kata2.io;
+
+import software.ulpgc.kata2.io.TitleDeserializer;
+import software.ulpgc.kata2.model.Title;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TsvTitleDeserializer implements TitleDeserializer{
+public class TsvTitleDeserializer implements TitleDeserializer {
     @Override
     public List<Title> deserialize(List<String> lines) {
         List<Title> titles = new ArrayList<>();

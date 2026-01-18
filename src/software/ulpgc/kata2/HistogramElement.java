@@ -1,3 +1,5 @@
+package software.ulpgc.kata2;
+
 public class HistogramElement {
     private final String key;
     private final int value;
